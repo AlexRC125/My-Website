@@ -1,7 +1,8 @@
 #grid1 div[class^="col"] {
-    border:4px solid black;
+    border:4px solid white;
     text-align: center;
-    height: 200px;
+    height: 300px;
+    background-color: black;
 }
 
 .circle1 {
@@ -10,17 +11,16 @@
     background-color: yellow;
     border-radius: 50%;
     display: inline-block;
-    border: 1px solid black;
     animation: mymove 5s;
     animation-fill-mode: forwards;
     position: relative;
-    
+
       }
     
       #div5 {animation-timing-function: ease-in-out;}
     
       @keyframes mymove {
-        from {left: 0px;}
+        from {left: -20px;}
         to {left: 300px;}
       }
 
@@ -28,16 +28,47 @@
     height: 150px;
     width: 150px;
     background-color: black;
+    border:1px solid white;
     border-radius: 50%;
     display: inline-block;
     animation: mymove2 5s;
     animation-fill-mode: forwards;
-    position: relative;
+    position:relative;
+margin-top: 10px;
   }
 
   #div4 {animation-timing-function: ease-in-out;}
 
   @keyframes mymove2 {
-    from {right: 0px;}
+    from {right: -20px;}
     to {right: 300px;}
+  }
+
+  h2{
+    border: 2px black solid;
+    background-color: #B88A00;
+    color: aliceblue; 
+    height: 400px;
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: #B83100;
+    overflow: auto;
+    color: aliceblue;
+  }
+
+  .img1{
+    width: 100px;
+    height: 100px
+  }
+
+  .img2{
+    width: 250px;
+    height: 200px;
+  }
+
+  h1{
+font-size: small;
+margin-right: 200px;
   }
